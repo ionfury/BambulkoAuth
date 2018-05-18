@@ -8,7 +8,7 @@ module.exports = function(app) {
 
     res.render('login', 
     { 
-      title: 'Discord Login', 
+      title: 'App Login', 
       image: 'eve_sso',
       sender: req.query.sender + " login",
       redirect_url: redirect_url
@@ -18,7 +18,7 @@ module.exports = function(app) {
   app.get('/auth', function(req, res, next) {
     res.render('auth',
     {
-      title: 'Discord Auth',
+      title: 'Auth Token',
       message: 'Auth Token:',
       code: req.query.code
     });

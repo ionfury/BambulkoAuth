@@ -3,7 +3,7 @@
   "auth_params": [
     {
       "parameter": "client_id",
-      "value": "9cd89c72b376412ea5766833802b8e68"
+      "value": "961774aedb934c68bc70b23e89116abb"
     },    
     {
       "parameter": "redirect_uri",
@@ -15,7 +15,7 @@
     },
     {
       "parameter": "scope",
-      "value": "esi-search.search_structures.v1 esi-universe.read_structures.v1 esi-markets.structure_markets.v1"
+      "value": "esi-calendar.read_calendar_events.v1 esi-wallet.read_corporation_wallet.v1 esi-corporations.read_structures.v1 esi-wallet.read_corporation_wallets.v1 esi-corporations.read_divisions.v1 esi-assets.read_corporation_assets.v1 esi-corporations.read_blueprints.v1 esi-contracts.read_corporation_contracts.v1 esi-corporations.read_starbases.v1 esi-industry.read_corporation_jobs.v1 esi-markets.read_corporation_orders.v1 esi-industry.read_corporation_mining.v1 esi-corporations.read_facilities.v1"
     }
   ]
 }
